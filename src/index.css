@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Gilroy'; /* Имя шрифта */
+    src: url("./fonts/Gilroy__Light.otf") format("truetype"); /* Путь к файлу со шрифтом */
+   }
+   /* @font-face {
+    font-family: "open-sans-light-italic";
+    src: url('./open-sans-light-italic.ttf') format("truetype");
+} */
+
+   .girloy__font__nav{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #020105;
+   }
+   .logo__div{
+       z-index: 1;
+   }
+   .logo__div::before{
+        z-index: 3;  
+    }
+    .burger__svg{
+        display: none;
+    }
+
+   @media(max-width:935px){
+    .burger__svg{
+        display: block;
+    }
+       .navbar__links{
+           position: fixed;
+           background-color: #71C0C6;
+           width: 100%;
+           height: 100%;
+           display: flex;
+           flex-direction: column;
+           align-items:  center;
+           justify-content: center;
+           top: 0;
+           /* left: -100%; */
+           transition: 0.5s ease;
+       }
+       .logo__div{
+           width: 100%;
+       }
+       .logo__div img{
+           width: 180px;
+       }
+       .navbar__links li{
+            margin: 10px 0px;
+            text-align: start;
+       }
+       .girloy__font__nav{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 20px;
+        color: #020105;
+       }
+   }
