@@ -15,7 +15,7 @@ function Navbar() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             </div>
-            <ul style={toggle ? { left: "0px" } : { left: "-100%" }} className="flex items-center navbar__links space-x-8">
+            <ul style={toggle ? { left: "0px", overflow: "hidden" } : { left: "-100%" }} className="flex items-center navbar__links space-x-8">
                 <li><a className="girloy__font__nav" href="#">About us</a></li>
                 <div className="flex justify-center space-x-2 items-center">
                     <li><a href="#" className="girloy__font__nav">Catalog</a></li>

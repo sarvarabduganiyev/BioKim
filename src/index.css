@@ -2,14 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* Navbar Boshlandi */
 @font-face {
-    font-family: 'Gilroy'; /* Имя шрифта */
-    src: url("./fonts/Gilroy__Light.otf") format("truetype"); /* Путь к файлу со шрифтом */
-   }
-   /* @font-face {
-    font-family: "open-sans-light-italic";
-    src: url('./open-sans-light-italic.ttf') format("truetype");
-} */
+    font-family: 'Gilroy';
+    src: url("./fonts/Gilroy__Light.otf") format("truetype");
+}
+@font-face {
+    font-family: 'Gilroy__light';
+    src: url("./fonts/gilroy_Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url("./fonts/gilroy_bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Gilroy__semibold';
+    src: url("./fonts/gilroy_semibold.ttf") format("truetype");
+}
 
    .girloy__font__nav{
     font-family: 'Gilroy';
@@ -23,28 +33,406 @@
        z-index: 1;
    }
    .logo__div::before{
-        z-index: 3;  
+        z-index: 2;  
     }
     .burger__svg{
         display: none;
     }
 
-   @media(max-width:935px){
+  
+  /* Navbar MEDIA BILAN  TUGADI*/
+/* _______________________________________________ */
+.__qator1{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.__qator10{
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.__qator5{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.__qator2{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.__qator3{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.__qator4{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.__qator7{
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+
+  /* Content One Style BOSHLANDI */
+   .content__one__div{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(113, 192, 198, 0.64) 0%, #71C0C6 77.02%);
+    border-radius: 32px;
+   }
+   .content__one__div__sarlavha{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+   }
+   .content__one__div__text{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+   }
+   .content__one__div__btn{
+    background: #F3974E;
+    border: 1px solid #F3974E;
+    transition: 0.3s ease;
+    border-radius: 32px;
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+   }
+   .content__one__div__btn:hover,.content__four__product__btn:hover{
+       background:#fff;
+       color: #F3974E;
+   }
+   .content__one__div__card{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(56px);
+    border-radius: 24px;
+   }
+   .content__one__div__card h1{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 56px;
+    color: #FFFFFF;
+   }
+   .content__one__div__card h4{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F5F5F7;
+   }
+   .content__one__div__img__div{
+      width: 600px;
+      height: auto;
+     
+    }
+    .content__one__div__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+   
+  /* Content One Style TUGADI */
+  /* ____________________________________________________ */
+
+  /* ContentTwo style Boshlandi */
+.content__two__sarlavha{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+}
+.content__two__text{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height:30px;
+    color: #020105;
+}
+.orange__line{
+    height: 2px;
+    background: #F3974E;
+    width: 100px;
+}
+.content__two__div__img{
+    width: 100%;
+    height: 100%;
+}
+
+  /* ContentTwo style Tugadi */
+/* ______________________________________________________ */
+
+  /* ContentThree style BOSHLANDI */
+  .content__three__card{
+    background-color: #7FC6CCFF;
+    border: 1px solid #B6DFE2FF;
+    box-shadow: 0px 0px 5px #71C0C6;
+    border-radius: 24px;
+  }
+  .content__three__card p{
+    font-family: "Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+  .content__three__card__contanier h1{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #FFFFFF;
+  }
+  .white__line{
+      background-color: white;
+      width: 100px;
+      height: 2px;
+  }
+  /* ContentThree style Tugadi */
+
+  /* ContentFour style BOSHLANDI */
+.content__four__h1{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #020105;
+    z-index: 11;
+}
+.content__four__card{
+    border: 1px solid #E8F5F6FF;
+    border-radius: 24px;
+    position: relative;
+    width: 265px;
+    height: 350px;
+    overflow: hidden;
+    transition: 0.3s ease;
+    transform-style: preserve-3d;
+    margin-top: 12px;
+}
+.content__four__card h2{
+   font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #020105;
+   
+}
+.content__four__product__btn {
+    background: #F3974E;
+    border: 1px solid #F3974E;
+    transition: 0.3s ease;
+    border-radius: 32px;
+    font-family: "Gilroy__light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 8px 25px;
+    box-shadow: 0px 0px 15px #F3974E;
+}
+/* animation card boshlanishi */
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    transition-delay: 0.15s;
+    transition: 0;
+}
+.front {
+    transform: rotateY(0deg);
+}
+.back {
+    transform: rotateY(180deg);
+    opacity: 0;
+    backface-visibility: visible;
+    background: #F3974E;
+    color: white;
+}
+
+.content__four__card:hover {
+    transform: rotateY(180deg);
+}
+
+.content__four__card:hover .front {
+    opacity: 0;
+}
+
+.content__four__card:hover .back {
+    opacity: 1;
+}
+.back p,.back a{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+
+/* animation card Tugashi */
+
+
+  /* ContentFour style TUGADI */
+
+
+  /* ContentFive style boshlanishi */
+
+.content__five__card__data{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #020105;
+}
+.content__Five__card__div a{
+    font-family:"Gilroy__semibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #020105;
+}
+
+  /* ContentFive style Tuagashi */
+
+
+  /* ContentSix style boshlanishi BOSHLANISHI */
+
+  .content__six__five__card{
+    border-radius: 24px;
+    border: 1px solid #E8F5F6FF;
+  }
+  .content__six__five__card h1{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #020105;
+    opacity: 0.8;
+  }
+  .content__six__five__card h2{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+    opacity: 0.72;
+  }
+  .content__six__five__card p{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #020105;
+  }
+
+  /* ContentSix style boshlanishi TUGASHI */
+
+  @media(max-width:1190px){
+    .content__one__div__img__div{
+        width: 450px;
+    }
+
+    .content__one__div__img__div{
+        display: none;
+    }
+  
+}
+@media(max-width:935px){
     .burger__svg{
         display: block;
+    }
+    .content__one__div__btn{
+        justify-self: end;
+       }
+    .content__one__div__text__div{
+        text-align: center;
+        width: 100%;
+        margin-top:5px;
+    }
+    .content__one__div__text{
+        font-size: 20px;
+    }
+    .content__one__div__sarlavha{
+        font-size: 35px;
+        line-height: 44px;
+        text-align: center;
+        width: 100%;
+    }
+    .content__one__btn__div{
+        display: flex;
+        justify-content: center;
+        align-items:  center;
+        width: 100%;
+    }
+    .content__one__div__card h1{
+        text-align: center;
+       
+    }
+    .content__one__div__card h4{
+        text-align: center;
+    }
+    .content__one__div__inner__content{
+          flex-direction: column;
     }
        .navbar__links{
            position: fixed;
            background-color: #71C0C6;
            width: 100%;
-           height: 100%;
+           height: 100vh;
            display: flex;
            flex-direction: column;
            align-items:  center;
            justify-content: center;
            top: 0;
-           /* left: -100%; */
-           transition: 0.5s ease;
+           transition: 0.3s ease;
        }
        .logo__div{
            width: 100%;
@@ -59,9 +447,43 @@
        .girloy__font__nav{
         font-family: 'Gilroy';
         font-style: normal;
-        font-weight: normal;
+        font-weight: 400;
         font-size: 22px;
         line-height: 20px;
         color: #020105;
        }
+       .content__three__head{
+           grid-template-columns: repeat(1, 1fr);
+       }
+       .content__three__card__contanier h1{
+       text-align: center;
+      }
    }
+@media(max-width:1052px){
+    .content__two{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .content__two__div__img{
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+    }
+    .content__two__div__img__div{
+        /* width: 700px; */
+        height: 500px;
+    }
+    .content__two__div__img{
+        width: 100%;
+        height: 100%;
+       
+    }
+}
+@media(max-width:539px){
+    .content__two__div__img__div{
+        height: 300px;
+    }
+    .content__three__card__contanier h1{
+        font-size: 30px;
+       }
+}
