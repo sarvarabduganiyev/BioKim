@@ -6,6 +6,7 @@ import ContentSeven from "./ContentSeven";
 import ContentSix from "./ContentSix";
 import ContentThree from "./ContentThree";
 import ContentTwo from "./ContentTwo";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 function Home() {
@@ -20,12 +21,7 @@ function Home() {
             <ContentSix />
             <ContentSeven />
             <ContentEight />
-
-
-
-
-
-
+            <Footer />
         </>
     );
 }

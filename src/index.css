@@ -415,7 +415,74 @@
   }
   /* ContentEight style boshlanishi TUGASHI */
 
+/* Footer style BOSHLANDI */
+.footer__section__div h1{
+  font-family:"Gilroy__semibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+.footer__section__div a{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+}
+.footer__networks__div h1{
+    font-family:"Gilroy__semibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+}
+.footer__networks__div h2{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px
+}
+.footer__adresses h1{
+    font-family:"Gilroy__semibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+}
+.footer__adresses h2{
+    font-family:"Gilroy__semibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+}
+.footer__adresses a{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #F5F5F7;
+}
+.footer__contact h1{
+    font-family:"Gilroy__semibold";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+.footer__contact a{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
 
+
+/* Footer style TUGADI */
 
   
 
