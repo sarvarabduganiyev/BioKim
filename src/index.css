@@ -375,6 +375,50 @@
 
   /* ContentSix style boshlanishi TUGASHI */
 
+
+  /* ContentEight style boshlanishi BOSHLANISHI */
+  .content__eight__bg{
+      background-image: url('./img/ContactBg.png');
+      background-position: center;
+      background-size: cover;
+      border-radius: 24px;
+      height:496px;
+  }
+  .content__eight__bg::before{
+    background: linear-gradient(83.32deg, rgba(113, 192, 198, 0.12) -40.43%, rgba(0, 0, 0, 0) 49.66%);
+  }
+  .content__eight__bg__p{
+    font-family:"Gilroy__light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #020105;
+    opacity: 0.8;
+  }
+  .content__eight__bg__input{
+    border: 1px solid #71C0C6;
+    width: 310px;
+  }
+  .content__eight__bg__input__2{
+      margin-left: 20px;
+  }
+  .content__eight__bg__input:focus,.content__eight__bg__textarea:focus{
+      outline: none;
+  }
+  .content__eight__bg__textarea{
+    width: calc(320px * 2);
+    resize: none;
+    height: 43px;
+    
+    border: 1px solid #71C0C6;
+  }
+  /* ContentEight style boshlanishi TUGASHI */
+
+
+
+  
+
   @media(max-width:1190px){
     .content__one__div__img__div{
         width: 450px;
@@ -478,6 +522,63 @@
         height: 100%;
        
     }
+}
+@media(max-width:800px) {
+    .content__eight__bg__input{
+        width: 310px;
+      }
+      .content__eight__bg__input__2{
+        margin-left: 0;
+        margin-top: 12px;
+    }
+    .content__eight__bg__textarea{
+        width: 310px;
+        height: 43px; 
+        margin-top: 12px;
+    }
+    .content__eight__bg__p{
+        font-size: 20px;
+        line-height: 30px;
+      }
+    .content__eight__h1{
+        font-size: 37px;
+        line-height: 37px;
+    }
+    .content__eight__bg__textarea__div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+      .content__eight__bg__input__div{
+          flex-direction: column;
+          align-items: center;
+      }
+      
+     
+}
+@media(max-width:400px) {
+    .content__eight__bg__input{
+        width: 230px;
+      }
+      .content__eight__bg__input__2{
+        margin-left: 0;
+        margin-top: 12px;
+    }
+    .content__eight__bg__textarea{
+        width: 230px;
+        height: 41px; 
+        margin-top: 12px;
+    }
+    .content__eight__bg__p{
+        font-size: 18px;
+        line-height: 25px;
+      }
+    .content__eight__h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+  
 }
 @media(max-width:539px){
     .content__two__div__img__div{

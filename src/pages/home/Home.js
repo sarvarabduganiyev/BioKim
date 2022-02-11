@@ -1,6 +1,8 @@
+import ContentEight from "./ContentEight";
 import ContentFive from "./ContentFive";
 import ContentFour from "./ContentFour";
 import ContentOne from "./ContentOne";
+import ContentSeven from "./ContentSeven";
 import ContentSix from "./ContentSix";
 import ContentThree from "./ContentThree";
 import ContentTwo from "./ContentTwo";
@@ -16,6 +18,13 @@ function Home() {
             <ContentFour />
             <ContentFive />
             <ContentSix />
+            <ContentSeven />
+            <ContentEight />
+
+
+
+
+
 
         </>
     );
