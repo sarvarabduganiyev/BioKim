@@ -480,11 +480,51 @@
     font-size: 16px;
     line-height: 20px;
 }
-
-
 /* Footer style TUGADI */
 
-  
+
+/* AboutTwo  style BOSHLANDI  */
+.about__two__card{
+    border: 1px solid #DDF0F1FF;
+    border-radius: 30px;
+}
+.about__two__card h1{
+    font-family: 'Gilroy__semibold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #020105;
+}
+.about__two__card h2{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #020105;
+    opacity: 0.8;
+}
+
+/* AboutTwo  style TUGADI  */
+/* AboutFOUR  style BOSHLANDI  */
+.about__four__card{
+    border: 1px solid #BBE1E4FF;
+    border-radius: 30px;
+}
+.about__four__card h1{
+    font-family: 'Gilroy__semibold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #020105;
+}
+
+/* AboutFOUR style TUGADI  */
 
   @media(max-width:1190px){
     .content__one__div__img__div{
@@ -499,6 +539,13 @@
 @media(max-width:935px){
     .burger__svg{
         display: block;
+    }
+    .catalog__five__card__div__grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .catalog__five__card__div__grid__card{
+        margin-left: 0px;
+        margin-top: 20px;
     }
     .content__one__div__btn{
         justify-self: end;
@@ -570,10 +617,22 @@
        text-align: center;
       }
    }
+   /* Catalog__five__style BOSHLANDI */
+    .catalog__five__card{
+        background: #71C0C6;
+    }
+   /* Catalog__five__style TUGADI */
 @media(max-width:1052px){
     .content__two{
       display: flex;
       flex-direction: column-reverse;
+    }
+    .about__one__img__div {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .content__two__div__img{
         width: 100%;
@@ -650,6 +709,9 @@
 @media(max-width:539px){
     .content__two__div__img__div{
         height: 300px;
+    }
+    .about__one__img__div {
+        height: 300px !important;
     }
     .content__three__card__contanier h1{
         font-size: 30px;

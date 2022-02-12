@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../../img/logo.png"
 
 function Navbar() {
@@ -16,14 +17,14 @@ function Navbar() {
                 </svg>
             </div>
             <ul style={toggle ? { left: "0px", overflow: "hidden" } : { left: "-100%" }} className="flex items-center navbar__links space-x-8">
-                <li><a className="girloy__font__nav" href="#">About us</a></li>
+                <li><Link to="/about" className="girloy__font__nav">About us</Link></li>
                 <div className="flex justify-center space-x-2 items-center">
-                    <li><a href="#" className="girloy__font__nav">Catalog</a></li>
+                    <li><Link to={"/catalog"} className="girloy__font__nav">Catalog</Link></li>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M18.433 9.45L12.004 15.88L5.57397 9.45" stroke="#020105" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </div>
-                <li><a href="#" className="girloy__font__nav">Blog</a></li>
+                <li><Link to={'/blog'} className="girloy__font__nav">Blog</Link></li>
                 <li><a href="#" className="girloy__font__nav">Contacts</a></li>
                 <div className="flex justify-center space-x-2 items-center">
                     <li><a href="#" className="girloy__font__nav">Eng</a></li>

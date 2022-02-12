@@ -1,5 +1,6 @@
-import BlogCard from "./BlogCard";
-function ContentFive() {
+import BlogCard from "../home/BlogCard";
+
+function BlogOne() {
     return (
         <div className="w-10/12 mx-auto">
             <div className="mt-12 ">
@@ -10,10 +11,12 @@ function ContentFive() {
                 <BlogCard />
                 <BlogCard />
                 <BlogCard />
+                <BlogCard />
+                <BlogCard />
+                <BlogCard />
             </div>
         </div>
-
     );
 }
 
-export default ContentFive;
+export default BlogOne;

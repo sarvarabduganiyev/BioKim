@@ -2,7 +2,7 @@ import logo from "../../img/logo__oqidan.png";
 function Footer() {
     return (
         <div style={{ backgroundColor: "#71C0C6", color: "#fff" }} >
-            <div className="w-10/12 mx-auto flex flex-wrap justify-between py-12">
+            <div className="w-10/12 mx-auto flex flex-wrap space-x-5 justify-between py-12">
                 <div>
                     <div>
                         <img className="mt-3" src={logo} alt="logo" />
