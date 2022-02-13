@@ -526,6 +526,83 @@
 
 /* AboutFOUR style TUGADI  */
 
+/* Blog__full__one style BOSHLANDI */
+.blog__full__one__p{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #020105;
+    opacity: 0.8;
+}
+.blog__full__img__div h4{
+    font-family: 'Gilroy__semibold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #020105;
+}
+/* Blog__full__one style TUGADI */
+
+/*  Catalog__Full__One  style BOSHLANDI */
+.catalog__full__one {
+    display: grid;
+    align-items: start;
+    grid-template-columns: 40% calc(60% - 20px);
+    gap: 20px;
+}
+.catalog__full__one__sastav__left{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+.catalog__full__one__sastav__right{
+    font-family: 'Gilroy__semibold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1878F3;
+}
+.catalog__full__one__sastav__bg{
+    background: rgba(113, 192, 198, 0.1);
+    border-top: 0.5px solid #71C0C6;
+    border-bottom: 0.5px solid #71C0C6;
+    box-sizing: border-box;
+}
+.catalog__full__one__sarlavha__div h1{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #020105;
+}
+.catalog__full__one__sarlavha__div h5{
+    font-family: 'Gilroy__semibold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #020105;
+}
+.catalog__full__one__sarlavha__div p{
+    font-family: 'Gilroy__semibold'; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #020105;
+    opacity: 0.64;
+}
+
+
+
+/*  Catalog__Full__One  style TUGADI */
   @media(max-width:1190px){
     .content__one__div__img__div{
         width: 450px;
@@ -537,11 +614,28 @@
   
 }
 @media(max-width:935px){
+    .catalog__full__one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .catalog__full__one__img__div{
+        height: 500px;
+        width: 400px;
+    }
     .burger__svg{
         display: block;
     }
     .catalog__five__card__div__grid{
         grid-template-columns: repeat(1,1fr);
+    }
+    .blog__full__img__div{
+        height: 400px !important;
+    }
+    .blog__full__sarlavha{
+        font-size:30px;
+        line-height: 30px;
     }
     .catalog__five__card__div__grid__card{
         margin-left: 0px;
@@ -710,10 +804,60 @@
     .content__two__div__img__div{
         height: 300px;
     }
+    .blog__full__one__p{
+        font-size: 15px;
+        line-height: 25px;
+      
+    }
+    .blog__full__data{
+        font-size: 13px !important;
+    }
+    .blog__full__img__div{
+        height: 280px !important;
+    }
+   
     .about__one__img__div {
         height: 300px !important;
     }
     .content__three__card__contanier h1{
         font-size: 30px;
        }
+    .catalog__full__one {   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .catalog__full__one__img__div{
+        height: 250px !important;
+        width: 250px !important;
+    }
+
+
+    .catalog__full__one__sastav__left,.catalog__full__one__sastav__right{
+      
+        font-size: 15px;
+        line-height: 18px;
+    }
+  
+   
+    .catalog__full__one__sarlavha__div h1{
+   
+        font-size: 28px;
+        line-height: 30px;
+   
+    }
+    .catalog__full__one__sarlavha__div h5{
+ 
+        font-size: 18px;
+        line-height: 20px;
+     
+    }
+    .catalog__full__one__sarlavha__div p{
+     
+        font-size: 15px;
+        line-height: 20px;
+     
+    }
+    
 }
