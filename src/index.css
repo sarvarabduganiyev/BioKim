@@ -9,6 +9,10 @@
     src: url("./fonts/Gilroy__Light.otf") format("truetype");
 }
 @font-face {
+    font-family: 'gilroy__bold';
+    src: url("./fonts/Gilroy-Bold.ttf") format("truetype");
+}
+@font-face {
     font-family: 'Gilroy__light';
     src: url("./fonts/gilroy_Light.ttf") format("truetype");
 }
@@ -22,7 +26,7 @@
 }
 
    .girloy__font__nav{
-    font-family: 'Gilroy';
+    font-family: 'Gilroy__light';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -30,14 +34,30 @@
     color: #020105;
    }
    .logo__div{
-       z-index: 1;
+    z-index: 47;
+    position: relative;
    }
-   .logo__div::before{
-        z-index: 2;  
+   .logo__div::after{
+       position: absolute;
+        /* z-index: 47;   */
+        content: "";
+       
+   
     }
     .burger__svg{
         display: none;
     }
+
+    /* .header::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        z-index:10;
+    } */
 
   
   /* Navbar MEDIA BILAN  TUGADI*/
@@ -603,6 +623,84 @@
 
 
 /*  Catalog__Full__One  style TUGADI */
+
+/* Contact One Card BOSHLANDI */
+.contact__one__card{
+    background: #71C0C6;
+    border-radius: 24px;
+    width: 550px;
+    transform: translateY(-220px) translateX(150px);
+}
+.contact__one__card__tabName__div__h1{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #F5F5F7;
+}
+.contact__one__card__underline__div{
+    height: 1px;
+    width:100%;
+    margin: 0px;
+    background-color: white;
+
+}
+.contact__tab__active{
+    font-family: 'gilroy__bold';
+    border-bottom: 1px solid #F5F5F7;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #F5F5F7;
+}
+
+/* Custom Tab boshlanishi */
+.tabs {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+ 
+  .active-tabs {
+    background: #eeeded;
+  }
+ 
+  .content__tab {
+      display: none;
+      background: #71C0C6;
+      padding: 10px;
+      border-radius: 0px 0px 30px 30px;
+  }
+  
+  .active-content {
+      display: flex;
+      flex-direction: column;
+  }
+  .contact__tab__inner h2{
+    font-family: 'Gilroy__semibold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+  .contact__tab__inner h5{
+    font-family: 'Gilroy__light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+  }
+ 
+/* Custom Tab Tugashi */
+
+
+/* Contact One Card TUGADI */
   @media(max-width:1190px){
     .content__one__div__img__div{
         width: 450px;
@@ -684,6 +782,7 @@
            align-items:  center;
            justify-content: center;
            top: 0;
+           z-index: 5;
            transition: 0.3s ease;
        }
        .logo__div{
@@ -773,10 +872,9 @@
       .content__eight__bg__input__div{
           flex-direction: column;
           align-items: center;
-      }
-      
-     
+      } 
 }
+
 @media(max-width:400px) {
     .content__eight__bg__input{
         width: 230px;
@@ -832,29 +930,19 @@
         height: 250px !important;
         width: 250px !important;
     }
-
-
-    .catalog__full__one__sastav__left,.catalog__full__one__sastav__right{
-      
+    .catalog__full__one__sastav__left,.catalog__full__one__sastav__right{ 
         font-size: 15px;
         line-height: 18px;
     }
-  
-   
     .catalog__full__one__sarlavha__div h1{
-   
         font-size: 28px;
         line-height: 30px;
-   
     }
     .catalog__full__one__sarlavha__div h5{
- 
         font-size: 18px;
         line-height: 20px;
-     
     }
     .catalog__full__one__sarlavha__div p{
-     
         font-size: 15px;
         line-height: 20px;
      

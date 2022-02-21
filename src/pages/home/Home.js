@@ -21,7 +21,9 @@ function Home() {
             <ContentSix />
             <ContentSeven />
             <ContentEight />
-            <Footer />
+            <div className="mt-12">
+                <Footer />
+            </div>
         </>
     );
 }
