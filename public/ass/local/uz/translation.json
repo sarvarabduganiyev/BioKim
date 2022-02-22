@@ -1,6 +1,20 @@
 {
-  "app_title": "Sarlavha",
-  "language": "til",
-  "welcome_message": "Xush kelibsiz",
-  "days_since_release": "Ushbu video YouTube kanalimizga joylanishiga {{number_of_days}} kun qoldi"
+  "About_us":"Biz haqimizda",
+  "Catalog":"Katalog",
+  "language": "Til",
+  "blog":"Blog",
+  "Contacts":"Aloqa",
+  
+  "Partnership":"Hamkorlik",
+  "Collaboration":"Birga xizmat",
+  "biolab__yozuv":"BioLab guruhi turli soha va ixtisoslikdagi kompaniyalar bilan istiqbolli hamkorlikka ochiq. Bizning asosiy maqsadimiz bozorga yo'naltirilgan va eng yaxshi sifatni ta'minlashdir. Iltimos, qo'shimcha so'rovlar bo'yicha biz bilan bog'laning.  BioLab group is open to prospective partnership with companies of different spheres and specialities. Our main goal is being market oriented and provide the best quality possible. Please, contact us regarding further enquiries.",
+  "Get__Start":"Boshlash",
+  "state__partners":"Davlat hamkorlari",
+  "operations__to__our__patients":"operatsiyadagi bemorlar",
+  "lenses_were_delivered_to_partner_clinics":"Linzalar hamkor klinikalarga yetkazildi",
+
+  "About_the_center":"Markaz haqida",
+  "our__company":"Kompaniyamizning asosiy maqsadi mijozlarimizga eng yaxshisini yetkazib berishdir. Shu maqsadda kompaniyamiz 2019 yilda bir guruh mutaxassislar va jarrohlar tomonidan tashkil etilgan. Dunyoning iqtisodiy markazlaridan biri London bizning bosh ofisimiz sifatida tanlandi.",
+  "Read_more":"Ko'proq o'qish"
+
 }

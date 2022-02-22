@@ -1,6 +1,22 @@
 {
-  "app_title": "Titre",
+  "About_us":"À propos de nous",
+  "Catalog":"Catalogue",
   "language": "Langue",
-  "welcome_message": "Bienvenue",
-  "days_since_release": "ça fait {{number_of_days}} jours depuis la sortie de cette vidéo"
+  "blog":"Blog",
+  "Contacts":"Contacts",
+
+
+  "Partnership":"Partenariat",
+  "Collaboration":"Collaboration",
+  "biolab__yozuv":"Le groupe BioLab est ouvert à des partenariats prospectifs avec des entreprises de différents domaines et spécialités. Notre objectif principal est d'être orienté vers le marché et de fournir la meilleure qualité possible. S'il vous plaît, contactez-nous pour de plus amples informations.",
+  "Get__Start":"Commencer",
+  "state__partners":"partenaires étatiques",
+  "operations__to__our__patients":"opérations à nos patients",
+  "lenses_were_delivered_to_partner_clinics":"des lentilles ont été livrées aux cliniques partenaires",
+
+
+  "About_the_center":"À propos du centre",
+  "our__company":"L'objectif principal de notre entreprise est de fournir le meilleur à nos clients. Dans ce but, notre société a été créée en 2019 par un groupe de professionnels et de chirurgiens. L'un des centres économiques mondiaux, Londres a été choisi pour y installer notre siège social.",
+  "Read_more":"Lire la suite"
+  
 }

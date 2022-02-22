@@ -1,6 +1,21 @@
 {
-  "app_title": "Title",
+  "About_us":"About us",
+  "Catalog":"Catalog",
   "language": "Language",
-  "welcome_message": "Welcome",
-  "days_since_release": "it's been {{number_of_days}} days since this video was released"
+  "blog":"Blog",
+  "Contacts":"Contacts",
+
+  "Partnership":"Partnership",
+  "Collaboration":"Collaboration",
+  "biolab__yozuv":"BioLab group is open to prospective partnership with companies of different spheres and specialities. Our main goal is being market oriented and provide the best quality possible. Please, contact us regarding further enquiries.",
+  "Get__Start":"Get Start",
+  "state__partners":"state partners",
+  "operations__to__our__patients":"operations to our patients",
+  "lenses_were_delivered_to_partner_clinics":"lenses were delivered to partner clinics",
+
+
+
+  "About_the_center":"About the center",
+  "our__company":"Our company’s main goal is supplying the best to our customers. With this goal our company has been established in 2019 by a group of professionals and surgeons. One of worlds economic hubs, London has been chosen to be our head office location.",
+  "Read_more":"Read more"
 }
