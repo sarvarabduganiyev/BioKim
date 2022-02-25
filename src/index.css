@@ -624,6 +624,12 @@
 
 /*  Catalog__Full__One  style TUGADI */
 
+ /* Catalog__five__style BOSHLANDI */
+ .catalog__five__card{
+    background: #71C0C6;
+}
+/* Catalog__five__style TUGADI */
+
 /* Contact One Card BOSHLANDI */
 .contact__one__card{
     background: #71C0C6;
@@ -809,12 +815,11 @@
        .content__three__card__contanier h1{
        text-align: center;
       }
+      .nav__dropdown{
+          background-color: #71C0C6FF !important;
+      }
    }
-   /* Catalog__five__style BOSHLANDI */
-    .catalog__five__card{
-        background: #71C0C6;
-    }
-   /* Catalog__five__style TUGADI */
+  
 @media(max-width:1052px){
     .content__two{
       display: flex;

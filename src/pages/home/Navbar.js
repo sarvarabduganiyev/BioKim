@@ -62,8 +62,8 @@ function Navbar() {
                 </div>
                 <li><Link to={'/blog'} className="girloy__font__nav">{t("blog")}</Link></li>
                 <li><Link to={"/contact"} className="girloy__font__nav">{t('Contacts')}</Link></li>
-                <div className="dropdown">
-                    <button style={{ color: "black" }} className="btn bg-white girloy__font__nav text-black ring-none otline-none border-none focus:outline-none focus:ring-none btn-secondary dropdown-toggle flex items-center" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <div className="dropdown ">
+                    <button style={{ color: "black" }} className="btn nav__dropdown bg-white girloy__font__nav text-black ring-none otline-none border-none focus:outline-none focus:ring-none btn-secondary dropdown-toggle flex items-center" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                         {t("language")}
                     </button>
                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
